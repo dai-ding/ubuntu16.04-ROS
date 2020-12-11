@@ -81,9 +81,9 @@ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-    ## 2.7构建工厂依赖
-    ```
-    sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
-    ```
+## 2.7构建工厂依赖
+```
+sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+```
 
 __参考链接：__[官方wiki](http://wiki.ros.org/cn/kinetic/Installation/Ubuntu)
