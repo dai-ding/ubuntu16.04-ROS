@@ -88,7 +88,7 @@
             ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/ip.png)  
 
             可以看到真实IP是`199.232.96.133`  
-            
+
         2. 修改映射文件  
             ```
             sudo gedit /etc/hosts
@@ -116,4 +116,4 @@
     sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
     ```
 
-__参考链接：__[官方wiki](http://wiki.ros.org/cn/kinetic/Installation/Ubuntu)
+__参考链接：__[ROS官方wiki](http://wiki.ros.org/cn/kinetic/Installation/Ubuntu)
