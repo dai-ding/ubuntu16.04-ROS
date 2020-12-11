@@ -3,7 +3,7 @@
 
 # 2.安装ROS Kinetic
 
-## 2.1配置 Ubuntu 软件仓库
++ ## 2.1配置 Ubuntu 软件仓库
 在 `/etc/apt/sources.list` 文件中，将软件源的地址改为 `http://mirrors.ustc.edu.cn/ubuntu-ports`  
 以下是 Ubuntu 16.04 /etc/apt/sources.list 文件的参考配置内容：
 ```
@@ -75,7 +75,6 @@ sudo rosdep init
 rosdep update
 ```
 
-+ 
 
 ## 2.6环境配置
 ```
