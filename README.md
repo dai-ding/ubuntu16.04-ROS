@@ -58,8 +58,7 @@ sudo apt-get install ros-kinetic-desktop
 sudo apt-get install ros-kinetic-ros-base
 ```
 
-单个软件包安装: 你也可以安装某个指定的ROS软件包（使用软件包名称替换掉下面的PACKAGE）:  
-```
+单个软件包安装: 你也可以安装某个指定的ROS软件包（使用软件包名称替换掉下面的PACKAGE）:      ```
 sudo apt-get install ros-kinetic-PACKAGE
 ```
 例如：
