@@ -68,7 +68,7 @@ sudo apt-get install ros-kinetic-slam-gmapping
 ```
 要查找可用软件包，请运行：  
 
-&#160`apt-cache search ros-kinetic`  
-#160`apt-cache search ros-kinetic`  
+&emsp `apt-cache search ros-kinetic`  
+&ensp `apt-cache search ros-kinetic`  
 &160`apt-cache search ros-kinetic`  
 
