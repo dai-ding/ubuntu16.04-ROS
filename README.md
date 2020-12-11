@@ -75,12 +75,23 @@
     rosdep update
     ```
     + 执行到sudo rosdep init这一步时可能会遇到问题，如下图所示：
-    ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/init_error.png)
-    很可能是因为`raw.githubusercontent.com`这个地址被墙了  
-    我们可以通过修改映射地址访问
-    1. 查询真实IP
-    2. 打开Ubuntu终端，输入：
-    3. 在之中添加：
+        ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/init_error.png)
+        很可能是因为`raw.githubusercontent.com`这个地址被墙了  
+        我们可以通过修改映射地址访问  
+        1. 查询真实IP
+            打开网址`https://www.ipaddress.com`  
+             ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/cha.png)
+            查找`raw.githubusercontent.com`  
+            ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/ip.png)  
+            可以看到真实IP是`199.232.96.133`  
+        2. 修改映射文件
+            ```
+            sudo gedit /etc/hosts
+            ```
+            在末尾添加
+            ```
+            199.232.96.133  raw.githubusercontent.com
+            ```
 
 - ## 2.6环境配置
     ```
