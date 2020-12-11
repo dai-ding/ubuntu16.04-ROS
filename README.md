@@ -75,6 +75,8 @@ sudo rosdep init
 rosdep update
 ```
 
++ 
+
 ## 2.6环境配置
 ```
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
