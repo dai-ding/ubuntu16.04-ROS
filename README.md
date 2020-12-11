@@ -49,9 +49,9 @@ sudo apt-get install ros-kinetic-desktop-full
 ```
 
 桌面版安装: 包含ROS、rqt、rviz以及通用机器人函数库。  
-    ```
-    sudo apt-get install ros-kinetic-desktop
-    ```
+```
+sudo apt-get install ros-kinetic-desktop
+```
 
 基础版安装: (简版) 包含ROS核心软件包、构建工具以及通信相关的程序库，无GUI工具。  
 ```
@@ -68,5 +68,5 @@ sudo apt-get install ros-kinetic-PACKAGE
 ```
 要查找可用软件包，请运行：  
 
-`    apt-cache search ros-kinetic`
+        `apt-cache search ros-kinetic`
 
