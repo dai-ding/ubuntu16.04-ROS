@@ -3,7 +3,7 @@
 
 # 2.安装ROS Kinetic
 
- ## 1. 配置 Ubuntu 软件仓库
+- ## 2.1配置 Ubuntu 软件仓库
     在 `/etc/apt/sources.list` 文件中，将软件源的地址改为 `http://mirrors.ustc.edu.cn/ubuntu-ports`  
     以下是 Ubuntu 16.04 /etc/apt/sources.list 文件的参考配置内容：
     ```
@@ -22,17 +22,17 @@
 
     __参考链接：__[中科院镜像配置指南](http://mirrors.ustc.edu.cn/help/ubuntu-ports.html)
 
-## 2.2添加 sources.list
+- ## 2.2添加 sources.list
 ```
 sudo sh -c '. /etc/lsb-release && echo "deb http://mirrors.ustc.edu.cn/ros/ubuntu/ $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
 
-## 2.3添加公钥
+- ## 2.3添加公钥
 ```
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
 
-## 2.4安装
+- ## 2.4安装
 更新软件包索引以生效。  
 ```
 sudo apt-get update
@@ -68,7 +68,7 @@ sudo apt-get update
 apt-cache search ros-kinetic`
 ```
 
-## 2.5初始化 rosdep
+- ## 2.5初始化 rosdep
 在开始使用ROS之前还需要初始化rosdep。rosdep可以方便在需要编译某些源码的时候为其安装一些系统依赖，同时也是某些ROS核心功能组件所必需用到的工具。
 ```
 sudo rosdep init
@@ -76,13 +76,13 @@ rosdep update
 ```
 ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/init_error.png)
 
-## 2.6环境配置
+- ## 2.6环境配置
 ```
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## 2.7构建工厂依赖
+- ## 2.7构建工厂依赖
 ```
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
