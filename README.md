@@ -3,7 +3,7 @@
 提取码：0spa 
 
 # 2.安装ROS Kinetic
-参考链接：
+__参考链接：__
 官方wiki：http://wiki.ros.org/cn/kinetic/Installation/Ubuntu
 ## 2.1配置 Ubuntu 软件仓库
 在 `/etc/apt/sources.list` 文件中，将软件源的地址改为 `http://mirrors.ustc.edu.cn/ubuntu-ports`
