@@ -43,12 +43,12 @@ sudo apt-get update
 ``` 
 在ROS中，有很多不同的库和工具。wiki官方提供了四种默认的配置来帮助你开始。也可以单独安装ROS包。  
 
-+ 桌面完整版: (推荐) : 包含ROS、rqt、rviz、机器人通用库、2D/3D 模拟器、导航以及2D/3D感知
+1. 桌面完整版: (推荐) : 包含ROS、rqt、rviz、机器人通用库、2D/3D 模拟器、导航以及2D/3D感知
 ```
 sudo apt-get install ros-kinetic-desktop-full
 ```
 
-+ 桌面版安装: 包含ROS、rqt、rviz以及通用机器人函数库。  
+2. 桌面版安装: 包含ROS、rqt、rviz以及通用机器人函数库。  
 ```
 sudo apt-get install ros-kinetic-desktop
 ```
@@ -64,7 +64,7 @@ sudo apt-get install ros-kinetic-PACKAGE
 ```
 例如：
 ```
-    sudo apt-get install ros-kinetic-slam-gmapping
+sudo apt-get install ros-kinetic-slam-gmapping
 ```
 
 要查找可用软件包，请运行：  
