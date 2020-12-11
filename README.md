@@ -68,5 +68,5 @@ sudo apt-get install ros-kinetic-PACKAGE
 ```
 要查找可用软件包，请运行：  
 
-`&emsp;`  `apt-cache search ros-kinetic`
+` &emsp `  `apt-cache search ros-kinetic`
 
