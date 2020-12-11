@@ -79,13 +79,13 @@ sudo rosdep init
 rosdep update
 ```
 
-## 2. 6环境配置
+## 2.6 环境配置
 ```
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## 2. 7构建工厂依赖
+## 2.7 构建工厂依赖
 ```
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
