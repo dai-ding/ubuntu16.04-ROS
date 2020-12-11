@@ -94,7 +94,9 @@
             ```
         
         这时重新输入`sudo rosdep init`  
+        
         ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/init.png)  
+
         可以看到成功写入  
         继续执行`rosdep update`即可  
 
