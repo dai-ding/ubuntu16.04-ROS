@@ -45,8 +45,8 @@ sudo apt-get update
 
 + 桌面完整版: (推荐) : 包含ROS、rqt、rviz、机器人通用库、2D/3D 模拟器、导航以及2D/3D感知
     ```
-sudo apt-get install ros-kinetic-desktop-full
-```
+    sudo apt-get install ros-kinetic-desktop-full
+    ```
 
 + 桌面版安装: 包含ROS、rqt、rviz以及通用机器人函数库。  
 ```
