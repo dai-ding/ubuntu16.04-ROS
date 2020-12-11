@@ -79,11 +79,16 @@
         很可能是因为`raw.githubusercontent.com`这个地址被墙了  
         我们可以通过修改映射地址访问  
         1. 查询真实IP  
-            打开网址`https://www.ipaddress.com`  
+            打开网址<https://www.ipaddress.com>  
+
              ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/cha.png)  
+
             在搜索栏输入 `raw.githubusercontent.com`  
+
             ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/ip.png)  
+
             可以看到真实IP是`199.232.96.133`  
+            
         2. 修改映射文件  
             ```
             sudo gedit /etc/hosts
@@ -94,7 +99,7 @@
             ```
         
         这时重新输入`sudo rosdep init`  
-        
+
         ![image](https://github.com/dai-ding/ubuntu16.04-ROS/blob/main/images/init.png)  
 
         可以看到成功写入  
