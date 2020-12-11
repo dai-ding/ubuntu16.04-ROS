@@ -23,15 +23,18 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu-ports/ xenial-security main restricte
 ```
 
 __参考链接：__  
-配置指南：https://help.ubuntu.com/community/Repositories/Ubuntu
+配置指南：https://help.ubuntu.com/community/Repositories/Ubuntu  
 中科院镜像配置指南：http://mirrors.ustc.edu.cn/help/ubuntu-ports.html
 
 ## 2.2添加 sources.list
 ```
 sudo sh -c '. /etc/lsb-release && echo "deb http://mirrors.ustc.edu.cn/ros/ubuntu/ $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
+
 ## 2.3添加公钥
 ```
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
 
+## 2.4安装
+`sudo apt-get update`
