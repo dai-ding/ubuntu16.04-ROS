@@ -1,5 +1,5 @@
 # 1.树莓派安装ubuntu mate
-链接：[https://pan.baidu.com/s/1GQnNj2NCIrN6dyIxb9SjWg](https://pan.baidu.com/s/1GQnNj2NCIrN6dyIxb9SjWg)   
+链接：[百度云盘](https://pan.baidu.com/s/1GQnNj2NCIrN6dyIxb9SjWg)   
 提取码：0spa 
 
 # 2.安装ROS Kinetic
