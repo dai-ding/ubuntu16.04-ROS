@@ -1,4 +1,4 @@
-# 1.  树莓派安装ubuntu mate
+# 1.树莓派安装ubuntu mate
 链接：https://pan.baidu.com/s/1GQnNj2NCIrN6dyIxb9SjWg   
 提取码：0spa 
 
@@ -27,4 +27,11 @@ __参考链接：__
 中科院镜像配置指南：http://mirrors.ustc.edu.cn/help/ubuntu-ports.html
 
 ## 2.2添加 sources.list
+```
+sudo sh -c '. /etc/lsb-release && echo "deb http://mirrors.ustc.edu.cn/ros/ubuntu/ $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+```
+## 2.3添加公钥
+```
+sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+```
 
