@@ -73,7 +73,19 @@ apt-cache search ros-kinetic`
 ```
 
 ## 2.5初始化 rosdep
+在开始使用ROS之前还需要初始化rosdep。rosdep可以方便在需要编译某些源码的时候为其安装一些系统依赖，同时也是某些ROS核心功能组件所必需用到的工具。
 ```
 sudo rosdep init
 rosdep update
+```
+
+## 2. 6环境配置
+```
+echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+
+## 2. 7构建工厂依赖
+```
+sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
