@@ -74,7 +74,7 @@ apt-cache search ros-kinetic`
 sudo rosdep init
 rosdep update
 ```
-
+![image](http://static.runoob.com/images/runoob-logo.png)
 
 ## 2.6环境配置
 ```
